@@ -10,8 +10,8 @@ const Body = Matter.Body;
 
 function preload(){
   //Loading the images in the computer's memory
-   dustbin_image = loadImage("sprites/Dustbin.png")
-   ball_image = loadImage("sprites/PaperBall.png")
+   //dustbin_image = loadImage("sprites/Dustbin.png")
+   //ball_image = loadImage("sprites/PaperBall.png")
 }
 
 function setup() {
@@ -54,5 +54,6 @@ function keyPressed(){
 		Matter.Body.applyForce(ball.body,ball.body.position,{x:350,y:-350})
 	}
 }
+
 
 
