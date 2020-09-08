@@ -32,7 +32,6 @@ function setup() {
   
 }
 
-
 function draw() {
   rectMode(CENTER);
   background(255);
